@@ -38,7 +38,7 @@ h1 {
   padding: 0 20px;
 }
 
-/* .video-container {
+.video-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -47,4 +47,4 @@ h1 {
   overflow: hidden;
   background: var(--primary-color) url("./cover.jpg") no-repeat center
     center/cover;
-} */
+}
