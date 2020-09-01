@@ -95,3 +95,9 @@ h1 {
   padding: 40px;
   text-align: center;
 }
+
+#about p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
