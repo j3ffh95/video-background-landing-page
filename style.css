@@ -36,6 +36,7 @@ h1 {
   justify-content: center;
   text-align: center;
   padding: 0 20px;
+  color: #fff;
 }
 
 .video-container {
@@ -47,4 +48,18 @@ h1 {
   overflow: hidden;
   background: var(--primary-color) url("./cover.jpg") no-repeat center
     center/cover;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  z-index: 10;
 }
