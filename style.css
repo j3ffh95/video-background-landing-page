@@ -90,3 +90,8 @@ h1 {
   color: #3a4052;
   background: #fff;
 }
+
+#about {
+  padding: 40px;
+  text-align: center;
+}
